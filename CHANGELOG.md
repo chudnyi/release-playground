@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.5.0](https://github.com/chudnyi/release-playground/compare/v0.4.0...v0.5.0) (2024-03-23)
+
+
+### Features
+
+* 1 2024-03-23T16:35:32+0300 ([eadeced](https://github.com/chudnyi/release-playground/commit/eadecedb5d5b230778a293701629750652ae9f90))
+* 2 2024-03-23T16:35:32+0300 ([2092f1e](https://github.com/chudnyi/release-playground/commit/2092f1e13c722320efc41ee10e335235c8b7c621))
+
+
+### Bug Fixes
+
+* 1 2024-03-23T16:35:32+0300 ([b97069a](https://github.com/chudnyi/release-playground/commit/b97069a25e99cadf10df1ffd13cf15451415603e))
+* 2 2024-03-23T16:35:32+0300 ([4abd2f3](https://github.com/chudnyi/release-playground/commit/4abd2f3c261dc076a25b13ce4da807df00a0efaf))
+* 3 2024-03-23T16:35:32+0300 ([420ec93](https://github.com/chudnyi/release-playground/commit/420ec934db422ea7a40cb85131fd9b3cc9445a92))
+
 ## [0.4.0](https://github.com/chudnyi/release-playground/compare/v0.3.0...v0.4.0) (2024-03-23)
 
 
