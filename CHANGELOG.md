@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/chudnyi/release-playground/compare/v0.9.2...v0.10.0) (2024-03-23)
+
+
+### Features
+
+* build, use matrix for build target 01 ([691790f](https://github.com/chudnyi/release-playground/commit/691790f8953ebe9cf51763f486004a045a05a5f1))
+
 ## [0.9.2](https://github.com/chudnyi/release-playground/compare/v0.9.1...v0.9.2) (2024-03-23)
 
 
