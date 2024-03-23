@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.1](https://github.com/chudnyi/release-playground/compare/v0.8.0...v0.8.1) (2024-03-23)
+
+
+### Bug Fixes
+
+* debug build 02 ([218b7f5](https://github.com/chudnyi/release-playground/commit/218b7f5849e196134d119bbd0c2222e97ffc686a))
+
 ## [0.8.0](https://github.com/chudnyi/release-playground/compare/v0.7.0...v0.8.0) (2024-03-23)
 
 
