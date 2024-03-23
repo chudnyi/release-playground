@@ -5,7 +5,7 @@ permissions:
   contents: write
   pull-requests: write
 jobs:
-  release-please:
+  release_please:
     name: "Release Please"
     runs-on: ubuntu-latest
     outputs:
