@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.0](https://github.com/chudnyi/release-playground/compare/v0.8.1...v0.9.0) (2024-03-23)
+
+
+### Features
+
+* 1 2024-03-23T18:30:04+0300 ([65f0cd3](https://github.com/chudnyi/release-playground/commit/65f0cd3680028434ddabb4feedf91528e91669d1))
+* 2 2024-03-23T18:30:04+0300 ([a2025e4](https://github.com/chudnyi/release-playground/commit/a2025e4e2f01e1df9880d997d5c55dfd9d1d8a89))
+
+
+### Bug Fixes
+
+* 1 2024-03-23T18:30:04+0300 ([ebbcd99](https://github.com/chudnyi/release-playground/commit/ebbcd995d958417a9b21ebf6a3e974b11a2bb28f))
+* 2 2024-03-23T18:30:04+0300 ([7839775](https://github.com/chudnyi/release-playground/commit/783977533ba444aab550aaadc1fa961d095e57f2))
+* 3 2024-03-23T18:30:04+0300 ([c67ad04](https://github.com/chudnyi/release-playground/commit/c67ad041b0d48984f8b2332267671d6e3dca274b))
+* debug build, release_please name ([75f3153](https://github.com/chudnyi/release-playground/commit/75f3153eaa48336befe42d6888bf6f454b76ac34))
+* debug build, release_please name 02 ([121393d](https://github.com/chudnyi/release-playground/commit/121393d294bfee0cd891b68e85001de010a5ed08))
+
 ## [0.8.1](https://github.com/chudnyi/release-playground/compare/v0.8.0...v0.8.1) (2024-03-23)
 
 
