@@ -34,7 +34,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "tag_name: ${{ needs.release_please.outputs.tag_name }}"
-          echo "release_created: ${{ needs.release_please.outputs.release_created }}"
-          echo gh release upload ${{ needs.release_please.outputs.tag_name }} ./dist/*
-          gh release upload ${{ needs.release_please.outputs.tag_name }} ./dist/*
+          set -x
+          gh release upload --clobber ${{ needs.release_please.outputs.tag_name }} ./dist/*
