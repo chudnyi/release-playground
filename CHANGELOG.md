@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.11.0](https://github.com/chudnyi/release-playground/compare/v0.10.0...v0.11.0) (2024-03-23)
+
+
+### Features
+
+* 1 2024-03-23T20:09:14+0300 ([93bed0e](https://github.com/chudnyi/release-playground/commit/93bed0e956b4c498c65c926dd4b1efdd9130c499))
+* 2 2024-03-23T20:09:14+0300 ([2cef049](https://github.com/chudnyi/release-playground/commit/2cef049967b8df898d59b15fa2661fe65ee777ea))
+
+
+### Bug Fixes
+
+* 1 2024-03-23T20:09:14+0300 ([248920c](https://github.com/chudnyi/release-playground/commit/248920ce007d4265112786abaa16815e97290cd8))
+* 2 2024-03-23T20:09:15+0300 ([c798435](https://github.com/chudnyi/release-playground/commit/c7984359a3029e2aed01847c0420a4b95f10a28d))
+* 3 2024-03-23T20:09:15+0300 ([7c73c3b](https://github.com/chudnyi/release-playground/commit/7c73c3bb7a97a6c1ca5b534adcd7fa8d2c0a8e71))
+* build, use matrix for build target, rm macOS-14-arm64 ([6e4de7e](https://github.com/chudnyi/release-playground/commit/6e4de7ecaad33683b8f56007f1089262003d66d4))
+
 ## [0.10.0](https://github.com/chudnyi/release-playground/compare/v0.9.2...v0.10.0) (2024-03-23)
 
 
