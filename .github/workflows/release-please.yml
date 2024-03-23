@@ -16,3 +16,22 @@ jobs:
         id: release
         with:
           release-type: simple
+
+  build:
+    name: "Build release binaries"
+    needs: release_please
+    if: ${{ needs.release_please.outputs.release_created == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pkgxdev/setup@v1
+        with:
+          version: "1.1.6"
+      - run: ./scripts/build.sh
+      - name: Upload Release Artifacts
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run:
+          gh release upload ${{ needs.release_please.outputs.tag_name }} ./dist.*
