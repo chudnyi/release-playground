@@ -15,6 +15,7 @@ declare -a targets=(
 for target in "${targets[@]}"; do
   output_bin="play-$target"
   output_zip="$output_bin.zip"
+  mkdir -p "$ROOT_DIR/dist"
   cd "$ROOT_DIR/dist"
   rm -f "$output_bin" "$output_zip"
   pkgx "$DENO" compile -A --output "./$output_bin" --target "$target" "$ROOT_DIR/src/cli.ts"
