@@ -21,7 +21,22 @@ jobs:
     name: "Build release binaries"
     needs: ["release_please"]
     if: ${{ needs.release_please.outputs.release_created == 'true' }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - target: x86_64-unknown-linux-gnu
+            os: ubuntu-latest
+            name: play-x86_64-unknown-linux-gnu.zip
+          - target: aarch64-unknown-linux-gnu
+            os: ubuntu-latest
+            name: play-aarch64-unknown-linux-gnu.zip
+          - target: x86_64-apple-darwin
+            os: macOS-14
+            name: play-x86_64-apple-darwin.zip
+          - target: aarch64-apple-darwin
+            os: macOS-14-arm64
+            name: play-aarch64-apple-darwin.zip
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,7 +44,7 @@ jobs:
       - uses: pkgxdev/setup@v1
         with:
           version: "1.1.6"
-      - run: ./scripts/build.sh
+      - run: ./scripts/build.sh ${{ matrix.target }}
       - name: Upload Release Artifacts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
