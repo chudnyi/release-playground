@@ -19,7 +19,7 @@ jobs:
 
   build:
     name: "Build release binaries"
-    needs: release_please
+    needs: ["release-please"]
     if: ${{ needs.release_please.outputs.release_created == 'true' }}
     runs-on: ubuntu-latest
     steps:
