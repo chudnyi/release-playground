@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.0](https://github.com/chudnyi/release-playground/compare/v0.7.0...v0.8.0) (2024-03-23)
+
+
+### Features
+
+* add build job ([7108f17](https://github.com/chudnyi/release-playground/commit/7108f177ebe85c59fd2ae0babeb2a9ad040a4635))
+
+
+### Bug Fixes
+
+* add build 01 ([982f6f9](https://github.com/chudnyi/release-playground/commit/982f6f9edb38ab7e8d9f18bce125516fd9f08d07))
+
 ## [0.7.0](https://github.com/chudnyi/release-playground/compare/v0.6.0...v0.7.0) (2024-03-23)
 
 
