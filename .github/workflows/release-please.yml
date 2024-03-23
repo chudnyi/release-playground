@@ -35,7 +35,8 @@ jobs:
             os: macOS-14
             name: play-x86_64-apple-darwin.zip
           - target: aarch64-apple-darwin
-            os: macOS-14-arm64
+#            os: macOS-14-arm64
+            os: macOS-14
             name: play-aarch64-apple-darwin.zip
     steps:
       - uses: actions/checkout@v4
