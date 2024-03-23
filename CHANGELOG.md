@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.1](https://github.com/chudnyi/release-playground/compare/v0.9.0...v0.9.1) (2024-03-23)
+
+
+### Bug Fixes
+
+* debug build, try upload artifacts 01 ([768737b](https://github.com/chudnyi/release-playground/commit/768737bc8a9fdd480a45a5150922037f137ab9c4))
+
 ## [0.9.0](https://github.com/chudnyi/release-playground/compare/v0.8.1...v0.9.0) (2024-03-23)
 
 
