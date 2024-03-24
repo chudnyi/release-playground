@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.0](https://github.com/chudnyi/release-playground/compare/v0.15.0...v0.16.0) (2024-03-24)
+
+
+### Features
+
+* take version from package.json ([8bfdc74](https://github.com/chudnyi/release-playground/commit/8bfdc7415e4f48b05075baf3764f552bbfeb3add))
+
 ## [0.15.0](https://github.com/chudnyi/release-playground/compare/v0.14.0...v0.15.0) (2024-03-24)
 
 
