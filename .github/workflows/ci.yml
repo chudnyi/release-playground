@@ -17,4 +17,4 @@ jobs:
       - uses: pkgxdev/setup@v1
         with:
           version: "1.1.6"
-      - run: ./scripts/build.sh test_src
+      - run: ./scripts/release.sh tests
