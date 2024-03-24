@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.12.0](https://github.com/chudnyi/release-playground/compare/v0.11.0...v0.12.0) (2024-03-24)
+
+
+### Features
+
+* build debug, add codesign macos bins ([edc66d2](https://github.com/chudnyi/release-playground/commit/edc66d23e4fa6e9926171bfb47d60b3d5283df26))
+
+
+### Bug Fixes
+
+* build debug, rm zip ([2910188](https://github.com/chudnyi/release-playground/commit/2910188fea055abb2bec0711b4a64213b43c0136))
+
 ## [0.11.0](https://github.com/chudnyi/release-playground/compare/v0.10.0...v0.11.0) (2024-03-23)
 
 
