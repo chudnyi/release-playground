@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.2](https://github.com/chudnyi/release-playground/compare/v0.13.1...v0.13.2) (2024-03-24)
+
+
+### Bug Fixes
+
+* build debug, use pkgx gh@2.46.0 ([82c0b14](https://github.com/chudnyi/release-playground/commit/82c0b1405000b7689bf0e22d38a65b5ec6489598))
+
 ## [0.13.1](https://github.com/chudnyi/release-playground/compare/v0.13.0...v0.13.1) (2024-03-24)
 
 
