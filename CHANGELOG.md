@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.0](https://github.com/chudnyi/release-playground/compare/v0.12.0...v0.13.0) (2024-03-24)
+
+
+### Features
+
+* build debug, use self-hosted runner for aarch64-apple-darwin ([61ef21a](https://github.com/chudnyi/release-playground/commit/61ef21a70c67403f32f55d112387d46923df251b))
+
 ## [0.12.0](https://github.com/chudnyi/release-playground/compare/v0.11.0...v0.12.0) (2024-03-24)
 
 
