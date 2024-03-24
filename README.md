@@ -1,2 +1,11 @@
 # release-playground
-Playground for debug CI/CD release action scripts
+
+Playground for debugging CI/CD release actions scripts for managing CLI app release cycle. 
+
+## Install
+
+### macOS
+
+```shell
+curl -fsSL https://raw.githubusercontent.com/chudnyi/release-playground/master/install.sh | sh
+```
