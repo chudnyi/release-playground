@@ -65,4 +65,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -x
-          gh release upload --clobber ${{ needs.release_please.outputs.tag_name }} ./dist/*
+          pkgx gh@2.46.0 release upload --clobber ${{ needs.release_please.outputs.tag_name }} ./dist/*
