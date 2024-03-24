@@ -4,7 +4,7 @@ Playground for debugging CI/CD release actions scripts for managing CLI app rele
 
 ## Install
 
-### macOS
+### macOS and Linux
 
 ```shell
 curl -fsSL https://raw.githubusercontent.com/chudnyi/release-playground/master/install.sh | sh
