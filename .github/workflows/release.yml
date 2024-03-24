@@ -5,9 +5,6 @@ permissions:
   contents: write
   pull-requests: write
 jobs:
-  tests:
-    uses: "chudnyi/release-playground/.github/workflows/ci.yml"
-
   release_please:
     name: "Release Please"
     runs-on: ubuntu-latest
