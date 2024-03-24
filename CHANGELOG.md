@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.17.0](https://github.com/chudnyi/release-playground/compare/v0.16.0...v0.17.0) (2024-03-24)
+
+
+### Features
+
+* add tests ([d456ccc](https://github.com/chudnyi/release-playground/commit/d456cccd52c05be0483c65941a054661b3d9a644))
+* call ci from release workflow ([8ab8f37](https://github.com/chudnyi/release-playground/commit/8ab8f37ed4cd0337a448b9158fcb899e48e11416))
+
+
+### Bug Fixes
+
+* rename workflows ([1f1bdf6](https://github.com/chudnyi/release-playground/commit/1f1bdf606540aec63a273d36e47e7e26196eed75))
+* revert: call ci from release workflow ([f398b3e](https://github.com/chudnyi/release-playground/commit/f398b3ecdec8d2730ff46c0a861822ea8fef6a92))
+* tests run ([5c15d08](https://github.com/chudnyi/release-playground/commit/5c15d08020599656525c6a14c74c31d71ac5ad25))
+
 ## [0.16.0](https://github.com/chudnyi/release-playground/compare/v0.15.0...v0.16.0) (2024-03-24)
 
 
