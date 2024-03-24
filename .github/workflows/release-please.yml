@@ -56,7 +56,7 @@ jobs:
       # signs fine. See https://github.com/denoland/deno/issues/575
       - run: codesign
           --sign "$APPLE_IDENTITY" --force
-          --preserve-metadata=entitlements,requirements,flags,runtime ./dist/play-aarch64-apple-darwin || true
+          --preserve-metadata=entitlements,requirements,flags,runtime ./dist/play-${{ matrix.target }} || true
         env:
           APPLE_IDENTITY: ${{ secrets.APPLE_IDENTITY }}
 
