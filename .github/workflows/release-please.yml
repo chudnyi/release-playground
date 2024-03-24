@@ -27,10 +27,8 @@ jobs:
         include:
 #          - target: x86_64-unknown-linux-gnu
 #            os: ubuntu-latest
-#            name: play-x86_64-unknown-linux-gnu.zip
 #          - target: aarch64-unknown-linux-gnu
 #            os: ubuntu-latest
-#            name: play-aarch64-unknown-linux-gnu.zip
           - target: x86_64-apple-darwin
             os: macos-latest
           - target: aarch64-apple-darwin
@@ -39,30 +37,30 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - uses: pkgxdev/setup@v1
         with:
           version: "1.1.6"
-
-      - run: ./scripts/build.sh ${{ matrix.target }}
-
       - uses: pkgxdev/brewkit/actions/setup-codesign@v0
-#        if: startsWith(matrix.os, 'macOS')
+        if: endsWith(matrix.target, '-darwin')
         with:
           p12-file-base64: ${{ secrets.APPLE_CERTIFICATE_P12 }}
           p12-password: ${{ secrets.APPLE_CERTIFICATE_P12_PASSWORD }}
 
+      - name: Build release binary
+        run: ./scripts/release.sh build ${{ matrix.target }}
+
       # codesign always fails for deno binaries, even though it
       # signs fine. See https://github.com/denoland/deno/issues/575
-      - run: codesign
-          --sign "$APPLE_IDENTITY" --force
-          --preserve-metadata=entitlements,requirements,flags,runtime ./dist/play-${{ matrix.target }} || true
+      - name: Code sign release macOS binary
+        if: endsWith(matrix.target, '-darwin')
+        run: ./scripts/release.sh macos_codesign ${{ matrix.target }}
         env:
           APPLE_IDENTITY: ${{ secrets.APPLE_IDENTITY }}
 
-      - name: Upload Release Artifacts
+      - name: Archive release binary
+        run: ./scripts/release.sh archive ${{ matrix.target }}
+
+      - name: Upload release archive to artifacts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -x
-          pkgx gh@2.46.0 release upload --clobber ${{ needs.release_please.outputs.tag_name }} ./dist/*
+        run: ./scripts/release.sh deploy_release ${{ matrix.target }} ${{ needs.release_please.outputs.tag_name }}
