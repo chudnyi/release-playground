@@ -10,6 +10,11 @@ source "$SELF_DIR/vars.env"
 #  x86_64-apple-darwin
 #  aarch64-apple-darwin
 
+test_src() {
+  pkgx "$DENO" test -A "$ROOT_DIR/src"
+  pkgx "$DENO" check "$ROOT_DIR/src/cli.ts"
+}
+
 build() {
   local target="$1"
   [[ -z "$target" ]] && echo "[ERROR] Required target as first argument: deno compile --help, option: --target" >&2 && exit 1
