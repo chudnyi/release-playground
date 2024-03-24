@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.13.1](https://github.com/chudnyi/release-playground/compare/v0.13.0...v0.13.1) (2024-03-24)
+
+
+### Bug Fixes
+
+* build debug, fix codesign path ([ea1f983](https://github.com/chudnyi/release-playground/commit/ea1f983029a795a70eb601e3bb0457987ea674aa))
+* build debug, fix self-hosted filter tags ([d108566](https://github.com/chudnyi/release-playground/commit/d108566414abe3330ad28b3f09fdc549cffd2678))
+
 ## [0.13.0](https://github.com/chudnyi/release-playground/compare/v0.12.0...v0.13.0) (2024-03-24)
 
 
