@@ -39,6 +39,7 @@ if command -v unzip >/dev/null; then
 else
 	7z x -o"$bin_dir" -y "$exe.zip"
 fi
+mv "$exe-$target" "$exe"
 chmod +x "$exe"
 rm "$exe.zip"
 
