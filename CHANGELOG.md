@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.15.0](https://github.com/chudnyi/release-playground/compare/v0.14.0...v0.15.0) (2024-03-24)
+
+
+### Features
+
+* add install.sh script ([be2f736](https://github.com/chudnyi/release-playground/commit/be2f736af0b25ea2d3778b39a937486a6c095402))
+* add package.json, change release-type: node ([7f2686f](https://github.com/chudnyi/release-playground/commit/7f2686f04b2bf7fa95d20b93101cb55d3d7c1377))
+* build enable linux ([0263adb](https://github.com/chudnyi/release-playground/commit/0263adb4d5e4f81c2d510327fa00d33b64ea9e1f))
+
+
+### Bug Fixes
+
+* install script ([e4fca69](https://github.com/chudnyi/release-playground/commit/e4fca69761536b7bb864330073bdd1c419b47fb8))
+
 ## [0.14.0](https://github.com/chudnyi/release-playground/compare/v0.13.2...v0.14.0) (2024-03-24)
 
 
